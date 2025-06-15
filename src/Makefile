@@ -1,6 +1,6 @@
-# Project: cpp
+# Project: c-test
 # Makefile created by Steve Chang
-# Date modified: 2025.06.01
+# Date modified: 2025.11.09
 
 LIBNAME = libmain.a
 

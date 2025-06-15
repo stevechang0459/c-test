@@ -1,14 +1,14 @@
-# Project: cpp
+# Project: c-test
 # Makefile created by Steve Chang
-# Date modified: 2025.06.01
+# Date modified: 2025.11.09
 # MAKEFLAGS += --trace
 GCC_PATH := $(shell which gcc)
-$(info [make] Using GCC from: $(GCC_PATH))
-# $(info [make] MSYSTEM: $(MSYSTEM))
-# $(info [make] GCC: $(shell pacman -Qe | grep gcc))
-# $(info [make] MSYS2: $(shell pacman -Qe | grep msys))
-# $(info [make] GCC Version: $(shell pacman -Qe | grep gcc | awk '{print $$2}'))
-# $(info [make] MSYS2 Version: $(shell pacman -Qe | grep msys | awk '{print $$2}'))
+$(info [make] Using GCC from : $(GCC_PATH))
+# $(info [make] MSYSTEM        : $(MSYSTEM))
+# $(info [make] GCC            : $(shell pacman -Qe | grep gcc))
+# $(info [make] MSYS2          : $(shell pacman -Qe | grep msys))
+# $(info [make] GCC Version    : $(shell pacman -Qe | grep gcc | awk '{print $$2}'))
+# $(info [make] MSYS2 Version  : $(shell pacman -Qe | grep msys | awk '{print $$2}'))
 
 PROJDIR = $(CURDIR)
 SRCDIR 	= $(PROJDIR)/src

@@ -1,6 +1,6 @@
-# Project: cpp
+# Project: c-test
 # Makefile created by Steve Chang
-# Date modified: 2025.06.01
+# Date modified: 2025.11.09
 
 OBJS = $(addprefix $(OBJDIR)/,$(SRCS:.$(C_FILE_EXT)=.o))
 ASMS = $(addprefix $(ASMDIR)/,$(SRCS:.$(C_FILE_EXT)=.s))
@@ -13,7 +13,9 @@ CFLAGS = \
 	$(addprefix -I,$(COMMON_INCLUDE)) \
 	$(addprefix -I,$(EXTERN_INCLUDE)) \
 	$(foreach include, . $(INCLUDE), -I$(SRCDIR)/$(include)) \
-	-g -O0 -Wall -Werror -fverbose-asm
+	-g0 -O0 -Wall -Werror -fverbose-asm
+# -g1 -O0 -Wall -Werror -fverbose-asm
+# -g2 -O0 -Wall -Werror -fverbose-asm
 # -g -Os -Wall
 # -g -Wall
 

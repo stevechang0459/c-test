@@ -55,6 +55,6 @@ dkms.conf
 msys.lnk
 AStyle
 _astylerc
-*.s
+# *.s
 **/*.code-workspace
 **/bin
